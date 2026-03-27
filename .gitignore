@@ -1,0 +1,49 @@
+# ------------------------
+# Python cache files
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------
+# Virtual environment
+# ------------------------
+venv/
+env/
+*.env
+
+# ------------------------
+# Jupyter notebook checkpoints (if any in future)
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# OS generated files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# AI outputs, uploaded images, and models
+# ------------------------
+outputs/                    # Generated images from scripts
+uploads/                    # User uploaded/input images
+static/generated/           # Generated images stored in static folder
+*.pt                        # PyTorch model files (like yolov8n-seg.pt)
+*.h5                        # Other model weights (if any)
+*.ckpt                      # Model checkpoints
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# IDE/Editor files
+# ------------------------
+.vscode/
+
+# ------------------------
+# Misc / safety
+# ------------------------
+.env                        # Environment variables
