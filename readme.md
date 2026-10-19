@@ -1,4 +1,4 @@
-# 🏠 Dream Space — AI-Based Interior Designer
+# 🏠 ROOMCRAFT-ML — AI-Based Interior Designer
 
 An AI-powered interior design platform that turns a room photo and a plain-English description into a fully realized design — combining **image segmentation**, **natural language processing**, and **AI image generation** in a single Flask app.
 
@@ -38,7 +38,7 @@ An AI-powered interior design platform that turns a room photo and a plain-Engli
 ## 🗂️ Project Structure
 
 ```
-dream-space-ai-interior-designer/
+ROOMCRAFT-ML/
 ├── app.py                     # Flask app & API routes
 ├── cost_estimator.py          # Budget estimation & comparison logic
 ├── verify_models.py           # Sanity-check script for model downloads
@@ -74,8 +74,8 @@ dream-space-ai-interior-designer/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/dream-space-ai-interior-designer.git
-cd dream-space-ai-interior-designer
+git clone https://github.com/abhijeetjadhav1726-spec/ROOMCRAFT-ML.git
+cd ROOMCRAFT-ML
 
 # 2. Create and activate a virtual environment
 python -m venv venv

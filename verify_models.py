@@ -59,7 +59,7 @@ def test_model_download():
 
 def main():
     print("=" * 60)
-    print("🏠 DREAM SPACE: Model Access Verification")
+    print("🏠 ROOMCRAFT-ML: Model Access Verification")
     print("=" * 60)
 
     if not check_huggingface_token():

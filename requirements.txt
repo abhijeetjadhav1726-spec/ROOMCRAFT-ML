@@ -1,5 +1,5 @@
 # ============================================================
-# Dream Space: AI Interior Designer – requirements.txt
+# ROOMCRAFT-ML: AI Interior Designer – requirements.txt
 # ============================================================
 #
 # INSTALL ORDER:

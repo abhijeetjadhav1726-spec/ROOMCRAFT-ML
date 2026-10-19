@@ -1,5 +1,5 @@
 """
-app.py – Dream Space: AI-Powered Interior Designer  (v5 – cost fix + prompt fidelity)
+app.py – ROOMCRAFT-ML: AI-Powered Interior Designer  (v5 – cost fix + prompt fidelity)
 """
 
 import os
@@ -646,7 +646,7 @@ def uploaded_file(filename):
 # ══════════════════════════════════════════════════════════════
 if __name__ == '__main__':
     print("\n" + "="*60)
-    print("🏠  DREAM SPACE v5 — Cost Fix + Prompt Fidelity")
+    print("🏠  ROOMCRAFT-ML v5 — Cost Fix + Prompt Fidelity")
     print("="*60)
     print(f"  HF Token       : {'✓' if os.getenv('HUGGINGFACE_TOKEN') else '✗ Missing'}")
     print(f"  PromptAnalyzer : {'✓' if _ANALYZER_AVAILABLE else '✗ fix utils/nlp_processor.py'}")

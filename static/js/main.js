@@ -1,5 +1,5 @@
 // ============================================================
-// Dream Space – AI Interior Designer  |  main.js  (v6)
+// ROOMCRAFT-ML – AI Interior Designer  |  main.js  (v6)
 // ============================================================
 
 // ── State ────────────────────────────────────────────────────
@@ -651,7 +651,7 @@ function switchTier(tier){
 
 // ── Download helpers ──────────────────────────────────────────
 function dlLink(href,filename){ const a=document.createElement('a'); a.href=href; a.download=filename; a.click(); }
-function downloadImage(){ const img=$('outputImage'); if(!img?.src){ showToast('No image','warning'); return; } dlLink(img.src,`dreamspace-design-${Date.now()}.png`); showToast('Image downloaded!','success'); }
+function downloadImage(){ const img=$('outputImage'); if(!img?.src){ showToast('No image','warning'); return; } dlLink(img.src,`roomcraft-ml-design-${Date.now()}.png`); showToast('Image downloaded!','success'); }
 function downloadCostReport(){
     if(!costData){ showToast('No cost data','warning'); return; }
     const rd=costData.room_details||{}; const cb=costData.cost_breakdown||{};

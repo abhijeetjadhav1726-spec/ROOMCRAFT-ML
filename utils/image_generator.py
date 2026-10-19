@@ -174,7 +174,7 @@ class InteriorDesignGenerator:
             raise ValueError("HUGGINGFACE_TOKEN not found in .env file")
 
         print("=" * 60)
-        print("🏠 Dream Space - Interior Design Generator")
+        print("🏠 ROOMCRAFT-ML - Interior Design Generator")
         print("=" * 60)
         print(f"📱 Device : {self.device.upper()}")
         print(f"⚡ Mode   : {self.mode.upper()}")
